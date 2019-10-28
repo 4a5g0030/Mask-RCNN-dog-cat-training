@@ -1,2 +1,7 @@
+#pycharm
 .idea
-dataset
+
+#images & .h5
+*.jpg
+*.h5
+*.json
