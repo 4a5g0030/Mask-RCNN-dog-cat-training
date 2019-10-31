@@ -91,7 +91,7 @@ if __name__ == '__main__':
         ret, frame = capture.read()
         results = model.detect([frame], verbose=0)
         r = results[0]
-        frame = display_instances( frame, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
+        frame = display_instances(frame, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
         for item in r['class_ids']:
             print(class_names[item])
 
